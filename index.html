@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar|Permanent+Marker" rel="stylesheet">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      
+    <title>Buddy The Painter</title>
+      
+      <style type="text/css">
+         
+          #title{
+              padding-top: 50px;
+              
+          }
+        
+          #about{
+              margin-top: 50px;
+              padding:30px;
+              font-family: 'Mukta Malar', sans-serif;
+          }
+          
+          #quoteBody{
+              margin-top:10px;
+              padding:240px;
+              background-color: #de7a22;
+          }
+          
+          #pricingContainer{
+              padding-bottom: 140px;
+          }
+          
+          #footer{
+              padding:100px;
+              background-color:#5bc0de;
+          }
+          
+          .fontStyle{
+              font-size: 5vw;
+              text-align: center;
+              font-family: 'Permanent Marker', cursive;
+              color: #20948B;
+          }
+          
+          .servFont{
+              font-family: 'Permanent Marker', cursive;
+              font-size: 3vw;
+              color:#6ab187;
+              margin-top: 20px;
+          }
+          
+          .jumbotron{
+              background-image: url("http://res.cloudinary.com/slowtraincar/image/upload/v1519659886/paintCans.jpg");
+              margin-top: 70px;
+              height: 500px;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center top;
+              text-align: center;
+          }
+          
+          .titleBreaks{
+              margin-top:100px;
+              margin-bottom: 100px;
+              padding:50px;
+              background-color: #f4cc70; 
+          }
+          
+          .servImg{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;
+              height: auto;
+              float:right''
+          }
+          
+          .pricingCards{
+              color: #20948b;
+          }
+          
+          .clear{
+              clear: both;
+          }
+          
+          html, body {
+              width: auto!important; 
+              overflow-x: hidden!important
+          }
+          
+          
+          figure.quoteSnip{
+              position:relative;
+              float:left;
+              overflow: hidden;
+              margin: 3px 3% 0 0% ;
+              min-width: 100px;
+              max-width:310px;
+              width: 100%;
+              color:darkblue;
+              text-align: left;
+              box-shadow: none !important;
+          }
+          
+          figure.quoteSnip *{
+              -webkit-box-sizing:border-box;
+              box-sizing: border-box;
+          }
+           
+          figure.quoteSnip img {
+              max-width: 100%;
+              height: 100px;
+              width: 100px;
+              border-radius: 50%;
+              margin-bottom: 15px;
+              display: inline-block;
+              z-index: 1;
+              position: relative;
+              
+          }
+          
+          figure.quoteSnip blockquote {
+            margin: 0;
+            display: block;
+            border-radius: 8px;
+            position: relative;
+            background-color: #f7efe2;
+            padding: 30px 50px 65px 50px;
+            font-size: 0.8em;
+            font-weight: 500;
+            margin: 0 0 -20px;
+            line-height: 1.6em;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+            }
+
+        figure.quoteSnip blockquote:before,
+        figure.quoteSnip blockquote:after {
+            font-family: 'FontAwesome';
+            content: "\201C";
+            position: absolute;
+            font-size: 50px;
+            opacity: 0.3;
+            font-style: normal;
+            }
+          
+        figure.quoteSnip blockquote:before {
+            top: 35px;
+            left: 20px;
+            }
+          
+        figure.quoteSnip blockquote:after {
+            content: "\201D";
+            right: 20px;
+            bottom: 35px;
+            }
+          
+        figure.quoteSnip .author {
+            margin: 0;
+            text-transform: uppercase;
+            text-align: center;
+            color:black;
+            }
+          
+        figure.quoteSnip .author h5 {
+            opacity: 0.8;
+            margin: 0;
+            font-weight: 800;
+            }
+          
+        figure.quoteSnip .author h5 span {
+            font-weight: 400;
+            text-transform: none;
+            display: block;
+            }
+          
+      </style>
+  </head>
+    <body>
+        <!--Portfolio-->
+        <!--Portfolio End-->
+        
+        <!--navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+          <a class="navbar-brand" href="#"><img src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659878/BuddyLogo.png" width="60"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#testamonials">Testamonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="mailto:email@example.com"target="_blank"><i class="far fa-envelope"></i>  Email Me</a>
+                  <a class="dropdown-item" href="tel:555-555-5555"><i class="fas fa-phone"></i>  Call Me</a>
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+                <!--navbar End-->
+        
+        <!--Title-->
+        <h1 class="display-3 fontStyle" id="title">Buddy The Painter Inc.</h1>
+        
+        <!--jumbotron-->
+        <div class="jumbotron jumbotron-fluid"></div>
+        
+        <!--About-->
+        <div class= "container" id="about">
+            <h2 class="display-4 text-center"> Thank's for stopping by!</h2>
+            <br>
+            <h3>Hello, my name is Buddy and I own Buddy The Painter Inc. Painting is my passion and what I have done my entire life. I am a professional with the knowledge of my trade and continue to stay on top of the latest trends and products to present to my clients. I work on-site at every job to ensure customer satisfaction and beautiful results.</h3> 
+            <br>
+            <h3>Buddy The Painter Inc. provides individualized customer service to fit the needs and tastes of every client. We are patient and attentive to detail, taking care of clients in Marco Island, Naples and Bonita Springs, Stallion is known for their expertise in workmanship.</h3> 
+            <br>
+            <h3>Our client referrals and testimonials say it all… Quality service with an artistic flair</h3>
+        </div>
+        
+        <!--Services Title-->
+      <div class="container-fluid justify-content-center" id="services">
+            <div class="fontStyle text-center titleBreaks">Services</div>
+        </div>
+          <div class="container text-center">
+        
+              <h4 class="servFont">Exteriors</h4>
+                  <img class="servImg" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659883/extiorSpanish.jpg" alt="First slide">
+
+              <div class="clear"></div>
+                <h4 class="servFont">Interiors</h4>
+                  <img class="servImg" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659883/OrangeandGreyWall.jpg" alt="Second slide">
+                    
+                        
+             <div class="clear"></div>
+                  <h4 class="servFont">Wallpaper</h4>
+                  <img class="servImg" src="http://res.cloudinary.com/slowtraincar/image/upload/c_fill,h_820,w_1476/v1519663825/texturedpaint.jpg" alt="Third slide">
+                  
+                        
+             <div class="clear"></div>
+        </div>   
+      
+        <!--services End-->
+        <!--Portfolio-->
+        <div class="container-fluid" id="portfolio">
+            <div class="fontStyle text-center titleBreaks">Portfolio</div>
+        </div>
+        <div class="container mx-auto">
+            <div class="row">
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519669251/exterirorCreamAndWhite.png" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659885/tanLivingRoom.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659884/SeafoamLivingroom.jpg" alt="Card image cap">
+              </div>
+            
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659883/OrangePorch.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659889/InteriorTrim.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659876/lightBathroom.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659882/darkOrangeWall.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519664040/ExteriorBrown.png" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659877/darkExterior.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659876/greyBathroom.jpg" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519663927/ExteriorLightGrey.png" alt="Card image cap">
+              </div>
+              <div class="card col-md-3">
+                <img class="card-img-top" src="http://res.cloudinary.com/slowtraincar/image/upload/v1519675522/lightGreenBath.jpg" alt="Card image cap">
+              </div>
+            </div>
+         </div>
+        <!--Portfolio End-->
+        
+        <!--Testamonials-->
+        <div class="container-fluid justify-content-center" id="testamonials">
+            <div class="fontStyle text-center titleBreaks">Testamonials</div>
+        </div>
+        
+        <div class="container">
+            <figure class="quoteSnip col-md-4">
+                <blockquote>Buddy was punctual, courteous, neat, and did an excellent painting job. I would highly recommend him for your painting needs.</blockquote>
+                <div class="author">
+                    <img src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659884/woman2.jpg" alt="Customer One">
+                    <h5>L. Daven<span>Marco Island</span></h5>
+                </div>
+            </figure>
+            
+            <figure class="quoteSnip hover col-md-4">
+                <blockquote>They painted the entire 3 bedroom condo. They were punctual, tidy, and professional. They cleaned up at the end of each day and touched up things that were extras. They painted for three days and were great!</blockquote>
+                <div class="author">
+                <img src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659882/man2.jpg" alt="Customer Two">
+                <h5>H. Morris<span>Naples</span></h5>
+                </div>
+            </figure>
+            <figure class="quoteSnip col-md-4">
+                <blockquote>Taking on a renovation out of state can be a daunting undertaking. However, Buddy graciously took the lead and acted as our general contractor.</blockquote>
+                <div class="author">
+                <img src="http://res.cloudinary.com/slowtraincar/image/upload/v1519659884/woman1.jpg">
+                <h5>K. Laughton<span>Golden Gate</span></h5>
+                </div>
+            </figure>
+        </div>
+        <!--<div class="container">
+            <div id="quoteBody"></div>
+        </div>-->
+        
+        <div style="clear: both" ></div>
+        <!--Testamonials End-->
+        
+        <!--Pricing-->
+        
+        <div class="container-fluid" id="pricing">
+            <div class="fontStyle text-center titleBreaks">Pricing</div>
+        </div>
+       
+       <div class="container pricingCards" id="pricingContainer">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Our working process  in 3 steps</h5>
+                <p class="card-text">We will coordinate your project with your new or existing decor</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Planning and Strategy</h5>
+                <p class="card-text">We provide extraordinary care so that you obtain the full benefit of your interior designer team</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Design and Develop</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Finish and Deliver</h5>
+                <p class="card-text">We will provide warmth and space, by connecting and creating excitement by contrast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+       <!--End Pricing--> 
+        
+        <div class="container-fluid" id="footer">
+            <div class="container text-center text-white">
+            <h3>How can we help you?
+            <br>
+            Check us out below and let's get social<br>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-yelp"></i>
+            <i class="fab fa-instagram"></i>
+            
+            </h3>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <!--Popper.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <!--Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!--My JS-->
+    <script type="text/javascript">
+       
+        
+        
+        
+        //for tooltips to work
+        $('[data-toggle="tooltip"]').tooltip()
+        
+        //for popovers to work
+        $('[data-toggle="popover"]').popover()
+        
+        //for scrollspy requires additional setup. check docs.
+        $('body').scrollspy({ target: '' })
+    </script>
+    </body>
+</html>
